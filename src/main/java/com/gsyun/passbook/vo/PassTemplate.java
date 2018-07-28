@@ -37,6 +37,11 @@ public class PassTemplate {
     private String desc;
 
     /**
+     * 是否有token
+     */
+    private Boolean hasToken;
+
+    /**
      * 最大个数限制
      */
     private Long limit;

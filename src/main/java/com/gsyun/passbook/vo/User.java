@@ -37,7 +37,7 @@ public class User {
     @NoArgsConstructor
     public static class BaseInfo{
         private String name;
-        private String age;
+        private Integer age;
         private String sex;
     }
 

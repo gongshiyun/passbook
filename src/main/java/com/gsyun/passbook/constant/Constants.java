@@ -104,6 +104,11 @@ public class Constants {
         public static final String SUMMARY = "summary";
 
         /**
+         * 优惠券详情
+         */
+        public static final String DESC = "desc";
+
+        /**
          * 优惠券是否有token
          */
         public static final String HAS_TOKEN = "has_token";
@@ -175,7 +180,7 @@ public class Constants {
         public static final String CONSUMER_DATE = "comsumer_date";
     }
 
-    public class Feedback {
+    public class FeedbackTable {
         /**
          * 表名
          */
