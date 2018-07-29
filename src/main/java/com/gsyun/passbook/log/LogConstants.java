@@ -21,7 +21,7 @@ public class LogConstants {
         /**
          * 用户使用优惠券
          */
-        public static final String User_USE_PASS = "UserUsePass";
+        public static final String USER_USE_PASS = "UserUsePass";
 
         /**
          * 用户获取库存信息
@@ -42,5 +42,8 @@ public class LogConstants {
          * 用户获取评论
          */
         public static final String GET_FEEDBACK = "GetFeedback";
+
+        /** 创建用户 */
+        public static final String CREATE_USER = "CreateUser";
     }
 }

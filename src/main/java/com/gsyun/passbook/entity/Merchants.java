@@ -3,6 +3,7 @@ package com.gsyun.passbook.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.repository.NoRepositoryBean;
 
 import javax.persistence.*;
 

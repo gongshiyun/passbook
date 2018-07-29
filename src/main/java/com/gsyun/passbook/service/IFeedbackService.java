@@ -22,5 +22,5 @@ public interface IFeedbackService {
      * @param userId 用户id
      * @return {@link Response}
      */
-    Response getFeedback(String userId);
+    Response getFeedback(Long userId);
 }
