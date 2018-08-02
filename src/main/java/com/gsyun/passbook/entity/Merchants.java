@@ -16,6 +16,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "merchants")
+@Entity
 public class Merchants {
     /**
      * 商户id,主键

@@ -31,6 +31,6 @@ public class RedisTemplateTest {
 
         redisTemplate.opsForValue().set("name","gsyun");
         assert redisTemplate.opsForValue().get("name") != null;
-        System.out.println(redisTemplate.opsForValue().get("name"));
+        System.out.println("name: " + redisTemplate.opsForValue().get("name"));
     }
 }
